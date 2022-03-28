@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="game-container">
+            <div class="timeDisplay"></div>
+            <div class="grid"></div>
+            <div>Flags left: <span id='flags-left'></span></div>
+            <div id="result"></div>
+        </div>
+        <div class="info-container">
+            <h1>Minesweeper</h1>
+            <p>Unlock all the safe plots before you encounter a land mine!</p>
+            <p>Key: </p>
+            <p>🚩 - Flag to mark the plots where a bomb might be.</p>
+            <p>💣 - Bomb indicates the plot has a bomb.</p>
+            <p> 1,2,3,4 etc - Indicates the number of bombs around the square plot.</p>
+        </div>
+    </div>
+    
+    <script src="app.js"></script>
+</body>
+</html>

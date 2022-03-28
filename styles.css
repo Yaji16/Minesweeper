@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+body{
+    font-family: 'Quicksand', sans-serif;
+}
+p{
+    font-weight: 500;
+}
+.container{
+    display: flex;
+    justify-content: space-around;
+    
+}
+.game-container{
+    width: 700px;
+    align-content: center;
+    
+}
+.info-container{
+    
+    width: 500px;
+}
+.grid{
+    height: 400px;
+    width: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(212, 211, 211);
+    margin: 40px 0 40px 50px;
+    border: 10px solid #dcd6bc;
+}
+
+.grid div{
+    height: 40px;
+    width: 40px;
+    font-weight: 600;
+    font-size: 20px;
+}
+.timeDisplay{
+    font-size: 28px;
+}
+.bomb{
+    height: 40px;
+    width: 40px;
+    border: 5px solid;
+    border-color: #f5f3eb #bab7a9 #bab7a9 #fff9db;
+    box-sizing: border-box;
+    
+}
+.checked{
+    height: 40px;
+    width: 40px;
+    border: 2px solid;
+    background-color: #cecab7;
+    border-color: #9c998d;
+    box-sizing: border-box;
+}
+.valid{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    width: 40px;
+    border: 5px solid;
+    border-color: #f5f3eb #bab7a9 #bab7a9 #fff9db;
+    box-sizing: border-box;
+
+}
+
+.one{
+    color: rgb(21, 34, 218);
+}
+
+.two{
+    color: rgb(218, 100, 21);
+}
+
+.three {
+    color: rgb(73, 172, 27);
+}
+
+.four {
+    color: rgb(199, 26, 98);
+}
+#result {
+    margin-top: 5px;
+    color: #d87058;
+    font-weight: 500;
+}
+
+@media (max-width: 850px){
+    .container{
+        flex-direction: column;
+    }
+}
